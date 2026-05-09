@@ -10,12 +10,12 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --blue:#0F2557;
-  --blue-mid:#1D4ED8;
-  --blue-light:#F97316;
+  --blue:#0A1628;
+  --blue-mid:#2563EB;
+  --blue-light:#F5C518;
   --blue-pale:#f5f5f5;
-  --accent:#1D4ED8;
-  --accent-dark:#080F2A;
+  --accent:#2563EB;
+  --accent-dark:#060D1A;
   --gray:#F8F9FB;
   --gray2:#EEF0F3;
   --gray3:#D1D5DB;
@@ -136,7 +136,7 @@ a{text-decoration:none;color:inherit}
 .review-card{border:1px solid var(--gray2);border-radius:var(--radius2);padding:24px;position:relative}
 .review-card::before{content:'';position:absolute;top:0;left:24px;right:24px;height:3px;background:var(--accent);border-radius:0 0 3px 3px}
 .review-stars{font-size:14px;color:var(--accent);margin-bottom:12px;letter-spacing:2px}
-.review-text{font-size:15px;color:var(--text);line-height:1.7;margin-bottom:16px}
+.review-text::before{content:'\201C'}.review-text::after{content:'\201D'}.review-text{font-size:15px;color:var(--text);line-height:1.7;margin-bottom:16px}
 .review-author{font-size:13px;font-weight:600;color:var(--text)}
 .review-when{font-size:12px;color:var(--text3);margin-top:2px}
 
@@ -256,7 +256,7 @@ a{text-decoration:none;color:inherit}
     <div class="reveal">
       <div class="hero-label">Elettricista · Bologna</div>
       <h1 class="hero-title">Intervento rapido, risultato garantito</h1>
-      <p class="hero-sub">Affidati alla nostra competenza per soluzioni elettriche sicure ed efficienti in tutta Bologna.</p>
+      <p class="hero-sub">Il tuo elettricista di fiducia a Bologna — preciso, puntuale e con preventivo gratuito.</p>
       <div class="hero-ctas">
         <a href="tel:3384609294" class="btn btn-accent">📞 Chiama ora</a>
         <a href="https://wa.me/393384609294?text=Ciao,%20vorrei%20un%20preventivo" target="_blank" class="btn btn-ghost">💬 WhatsApp</a>
@@ -267,7 +267,7 @@ a{text-decoration:none;color:inherit}
       <div class="hero-stats">
         <div class="hero-stat">
           <div class="hero-stat-label">Valutazione Google</div>
-          <div class="hero-stat-value"><span>4.9</span> ★</div>
+          <div class="hero-stat-value"><span>4.6</span> ★</div>
         </div>
         <div class="hero-stat">
           <div class="hero-stat-label">Recensioni verificate</div>
@@ -312,43 +312,43 @@ a{text-decoration:none;color:inherit}
         <div class="tag reveal">Cosa facciamo</div>
         <h2 class="h2 reveal">I nostri <span>servizi</span></h2>
       </div>
-      <p class="sub reveal">Offriamo servizi professionali di elettricista a Bologna. Ogni lavoro è eseguito a regola d'arte.</p>
+      <p class="sub reveal">Offriamo servizi professionali di elettricista a Bologna. Ogni trattamento è personalizzato sulle tue esigenze.</p>
     </div>
     <div class="services-grid">
       <div class="service-card reveal">
         <div class="service-dot"></div>
-        <div class="service-name">Installazione Impianti Elettrici</div>
-        <div class="service-desc">Installazione e rifacimento completo di impianti elettrici per abitazioni private e condomini, dalla progettazione alla certificazione.</div>
+        <div class="service-name">Impianti civili</div>
+        <div class="service-desc">Installazione e rifacimento di impianti elettrici per abitazioni e condomini. Dichiarazione di conformità.</div>
         <div class="service-arrow">Scopri di più →</div>
       </div>
       <div class="service-card reveal" style="transition-delay:.06s">
         <div class="service-dot"></div>
-        <div class="service-name">Manutenzione e Adeguamento</div>
-        <div class="service-desc">Adeguamento impianti esistenti alle normative CEI vigenti. Rilascio dichiarazione di conformità per vendite e locazioni.</div>
+        <div class="service-name">Messa a norma</div>
+        <div class="service-desc">Adeguamento impianti alle normative CEI vigenti. Indispensabile per vendite e locazioni.</div>
         <div class="service-arrow">Scopri di più →</div>
       </div>
       <div class="service-card reveal" style="transition-delay:.12s">
         <div class="service-dot"></div>
-        <div class="service-name">Pronto Intervento Elettricista</div>
-        <div class="service-desc">Intervento rapido su guasti, cortocircuiti, interruttori differenziali e qualsiasi problema elettrico urgente.</div>
+        <div class="service-name">Guasti urgenti</div>
+        <div class="service-desc">Intervento rapido su guasti, cortocircuiti e blackout. Disponibile anche in emergenza.</div>
         <div class="service-arrow">Scopri di più →</div>
       </div>
       <div class="service-card reveal" style="transition-delay:.18s">
         <div class="service-dot"></div>
-        <div class="service-name">Certificazioni e Conformità</div>
-        <div class="service-desc">Progettazione e realizzazione di impianti per negozi, uffici e attività commerciali. Rispetto delle normative specifiche di settore.</div>
+        <div class="service-name">Impianti commerciali</div>
+        <div class="service-desc">Progettazione e realizzazione di impianti per negozi, uffici e attività produttive.</div>
         <div class="service-arrow">Scopri di più →</div>
       </div>
       <div class="service-card reveal" style="transition-delay:.24s">
         <div class="service-dot"></div>
-        <div class="service-name">Automazione e Domotica</div>
-        <div class="service-desc">Installazione di allarmi, videocitofoni, telecamere di sorveglianza e sistemi antintrusione per privati e aziende.</div>
+        <div class="service-name">Sistemi di sicurezza</div>
+        <div class="service-desc">Installazione di allarmi, videocitofoni, telecamere e sistemi antintrusione.</div>
         <div class="service-arrow">Scopri di più →</div>
       </div>
       <div class="service-card reveal" style="transition-delay:.30s">
         <div class="service-dot"></div>
-        <div class="service-name">Quadri Elettrici</div>
-        <div class="service-desc">Installazione, cablaggio e manutenzione di quadri elettrici per la distribuzione sicura dell'energia. Risparmio energetico garantito e certificato.</div>
+        <div class="service-name">Fotovoltaico e LED</div>
+        <div class="service-desc">Installazione impianti fotovoltaici e riconversione in LED per risparmiare energia.</div>
         <div class="service-arrow">Scopri di più →</div>
       </div>
     </div>
@@ -385,23 +385,23 @@ a{text-decoration:none;color:inherit}
     <div class="guarantee-inner">
       <div class="guarantee-item reveal">
         <div class="guarantee-icon">⚡</div>
-        <div class="guarantee-title">Intervento rapido</div>
-        <div class="guarantee-desc">Rispondiamo entro 2 ore e interveniamo in giornata per i guasti urgenti.</div>
+        <div class="guarantee-title">Lavoro certificato</div>
+        <div class="guarantee-desc">Dichiarazione di conformità</div>
       </div>
       <div class="guarantee-item reveal" style="transition-delay:.08s">
         <div class="guarantee-icon">📋</div>
-        <div class="guarantee-title">Preventivo gratuito</div>
-        <div class="guarantee-desc">Sopralluogo e preventivo dettagliato senza impegno e senza costi nascosti.</div>
+        <div class="guarantee-title">Intervento rapido</div>
+        <div class="guarantee-desc">In giornata per i guasti</div>
       </div>
       <div class="guarantee-item reveal" style="transition-delay:.16s">
         <div class="guarantee-icon">✅</div>
-        <div class="guarantee-title">Lavoro certificato</div>
-        <div class="guarantee-desc">Rilasciamo dichiarazione di conformità per ogni impianto realizzato o modificato.</div>
+        <div class="guarantee-title">Preventivo gratuito</div>
+        <div class="guarantee-desc">Sopralluogo senza impegno</div>
       </div>
       <div class="guarantee-item reveal" style="transition-delay:.24s">
         <div class="guarantee-icon">🔒</div>
         <div class="guarantee-title">Garanzia 2 anni</div>
-        <div class="guarantee-desc">Tutti i nostri lavori sono garantiti 2 anni su materiali e manodopera.</div>
+        <div class="guarantee-desc">Su materiali e manodopera</div>
       </div>
     </div>
   </div>
@@ -416,7 +416,7 @@ a{text-decoration:none;color:inherit}
         <h2 class="h2 reveal">Clienti <span>soddisfatti</span></h2>
       </div>
       <div class="reviews-badge reveal">
-        <div class="reviews-badge-num">4.9</div>
+        <div class="reviews-badge-num">4.6</div>
         <div class="reviews-badge-detail">
           <div class="reviews-badge-stars">★★★★★</div>
           <div>59 recensioni Google</div>
@@ -426,21 +426,23 @@ a{text-decoration:none;color:inherit}
     <div class="reviews-grid">
       <div class="review-card reveal">
         <div class="review-stars">★★★★★</div>
-        <p class="review-text">"Professionalità e serietà rare. Ho chiesto un preventivo per mettere a norma l'impianto del mio appartamento e ho ricevuto risposta in meno di un'ora. Lavoro impeccabile e prezzo onesto."</p>
-        <div class="review-author">Marco G.</div>
-        <div class="review-when">Milano · 2 settimane fa</div>
+        <p class="review-text">“Ho usufruito dei servizi della ditta Lampo di Genio e sono stata esternamente soddisfatta.
+Puntualità, professionalità e cortesia.
+Complimenti! Un grazie particolare a Kledi e Francesco!”</p>
+        <div class="review-author">Barbara Marozzi</div>
+        <div class="review-when">Milano · 1 settimana fa</div>
       </div>
       <div class="review-card reveal" style="transition-delay:.1s">
         <div class="review-stars">★★★★★</div>
-        <p class="review-text">"Guasto improvviso alla sera, li ho chiamati e sono venuti il giorno dopo di mattina presto. Risolto tutto in meno di due ore. Prezzi chiari e nessuna sorpresa. Li richiamerò senza dubbio."</p>
-        <div class="review-author">Silvia R.</div>
-        <div class="review-when">Milano · 1 mese fa</div>
+        <p class="review-text">“Molto gentili, in pochi giorni mi hanno procurato del materiale elettrico che mi occorreva, fra cui delle mascherine copriinterruttori a muro che con il tempo mi si erano deteriorati.”</p>
+        <div class="review-author">Giuliana Di Palma</div>
+        <div class="review-when">3 mesi fa</div>
       </div>
       <div class="review-card reveal" style="transition-delay:.2s">
         <div class="review-stars">★★★★★</div>
-        <p class="review-text">"Ho rinnovato l'impianto di tutto il negozio. Lavoro preciso, pulito e nei tempi concordati. Dichiarazione di conformità rilasciata subito. Consiglio vivamente a tutti."</p>
-        <div class="review-author">Luca B.</div>
-        <div class="review-when">Milano · 2 mesi fa</div>
+        <p class="review-text">“Ho avuto il piacere di affidarmi a questa ditta di elettricisti per un lavoro di installazione impianto elettrico nella mia nuova casa, e non potrei essere più soddisfatto!”</p>
+        <div class="review-author">Ermes Posenato</div>
+        <div class="review-when">1 anno fa</div>
       </div>
     </div>
   </div>
@@ -460,8 +462,8 @@ a{text-decoration:none;color:inherit}
     </div>
     <div>
       <div class="tag reveal">Chi siamo</div>
-      <h2 class="h2 reveal">Eccellenza e Sicurezza Elettrica</h2>
-      <p class="sub reveal" style="margin-top:16px">Il nostro team è composto da elettricisti qualificati e con anni di esperienza nel settore, pronti a offrire soluzioni affidabili. Da anni operiamo con dedizione su Bologna e provincia, garantendo interventi precisi e a norma. Siamo il partner di fiducia per ogni esigenza elettrica, dalla piccola riparazione ai grandi impianti.</p>
+      <h2 class="h2 reveal">Sicurezza prima di tutto</h2>
+      <p class="sub reveal" style="margin-top:16px">Con anni di esperienza nel settore elettrico, offriamo interventi precisi e documentati. Dal piccolo guasto al rifacimento completo dell'impianto, siamo sempre al tuo fianco con professionalità.</p>
       <p class="sub reveal" style="margin-top:12px;transition-delay:.08s"></p>
       <div class="about-points reveal" style="transition-delay:.12s">
         <div class="about-point">
@@ -519,7 +521,7 @@ a{text-decoration:none;color:inherit}
           <div class="contact-icon">🕐</div>
           <div>
             <div class="contact-label">Orari</div>
-            <div class="contact-value muted">Lun-Ven: 8:00-18:30 | Sab: 8:30-13:00</div>
+            <div class="contact-value muted">Lun – Ven: 8:00 – 18:30 · Sab: 8:00 – 13:00 · Urgenze H24</div>
           </div>
         </div>
       </div>
@@ -538,8 +540,8 @@ a{text-decoration:none;color:inherit}
   <div class="container">
     <div class="footer-inner">
       <div>
-        <div class="footer-logo"><span>Lampo di Genio</span></div>
-        <p class="footer-desc">Professionisti dell'elettricità a Bologna, la tua sicurezza è la nostra priorità.</p>
+        <div class="footer-logo"><span>Lampo di Genio s.n.c.</span></div>
+        <p class="footer-desc">Lampo di Genio — elettricista certificato a Bologna. Impianti civili e commerciali, messa a norma e guasti urgenti.</p>
       </div>
       <div>
         <div class="footer-heading">Contatti</div>
@@ -552,16 +554,16 @@ a{text-decoration:none;color:inherit}
       <div>
         <div class="footer-heading">Servizi</div>
         <div class="footer-links">
-          <a href="#servizi">Installazione Impianti Elettrici</a>
-          <a href="#servizi">Manutenzione e Adeguamento</a>
-          <a href="#servizi">Pronto Intervento Elettricista</a>
-          <a href="#servizi">Certificazioni e Conformità</a>
-          <a href="#servizi">Automazione e Domotica</a>
+          <a href="#servizi">Impianti civili</a>
+          <a href="#servizi">Messa a norma</a>
+          <a href="#servizi">Guasti urgenti</a>
+          <a href="#servizi">Impianti commerciali</a>
+          <a href="#servizi">Sistemi di sicurezza</a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="footer-copy">© 2026 Lampo di Genio s.n.c.. Tutti i diritti riservati.</div>
+      <div class="footer-copy">© 2026 Lampo di Genio s.n.c. Tutti i diritti riservati.</div>
       <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Cookie Policy</a></div>
     </div>
   </div>
